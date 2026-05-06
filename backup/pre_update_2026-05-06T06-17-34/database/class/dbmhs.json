@@ -1,0 +1,200 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Almira Khansa Zhafirah Putri",
+        "nim": "2023050005",
+        "year": 2023,
+        "phone": "62882008432756"
+      },
+      {
+        "id": 2,
+        "name": "Alfan Fatihatu Nangim",
+        "nim": "2023050012",
+        "year": 2023,
+        "phone": "6282235549251"
+      },
+      {
+        "id": 3,
+        "name": "Fita Yunita",
+        "nim": "2023050016",
+        "year": 2023,
+        "phone": "6285875364715"
+      },
+      {
+        "id": 4,
+        "name": "Maulana Adiansyah",
+        "nim": "2023050020",
+        "year": 2023,
+        "phone": "6281227931120"
+      },
+      {
+        "id":  5,
+        "name": "Refi Syahda Kirana",
+        "nim": "2023050026",
+        "year": 2023,
+        "phone": "6287868512044"
+      },
+      {
+        "id": 6,
+        "name": "Ahmad Muhammad Wildan Arifin",
+        "nim": "2023050027",
+        "year": 2023,
+        "phone": "6282132184462"
+      },
+      {
+        "id": 7,
+        "name": "Maela Nur Faida",
+        "nim": "2023050037",
+        "year": 2023,
+        "phone": "6285657027648"
+      },
+      {
+        "id": 8,
+        "name": "Raficca Yuni Ana",
+        "nim": "2023050038",
+        "year": 2023,
+        "phone": "6285868535346"
+      },
+      {
+        "id": 9,
+        "name": "Afirsal Risqi Abdul Wafa",
+        "nim": "2023050039",
+        "year": 2023,
+        "phone": "6285137492749"
+      },
+      {
+        "id": 10,
+        "name": "Arba Surya Jagat",
+        "nim": "2023050040",
+        "year": 2023,
+        "phone": "6285122688798"
+      },
+      {
+        "id": 11,
+        "name": "Ilham",
+        "nim": "2023050041",
+        "year": 2023,
+        "phone": "6285800183751"
+      },
+      {
+        "id": 12,
+        "name": "Yuniani Nurus Salma",
+        "nim": "2023050042",
+        "year": 2023,
+        "phone": "6285641355086"
+      },
+      {
+        "id": 13,
+        "name": "Ummu Khoifathurrohmah",
+        "nim": "2023050043",
+        "year": 2023,
+        "phone": "6282227035092"
+      },
+      {
+        "id": 14,
+        "name": "Achmad Sholehudin Dzikra",
+        "nim": "2023050046",
+        "year": 2023,
+        "phone": "6285747177937"
+      },
+      {
+        "id": 15,
+        "name": "Uli Mardiyah Wulandari",
+        "nim": "2023050048",
+        "year": 2023,
+        "phone": "6285374859783"
+      },
+      {
+        "id": 16,
+        "name": "Astrella Putri Raeza Fatria",
+        "nim": "2023050050",
+        "year": 2023,
+        "phone": "6287787222330"
+      },
+      {
+        "id": 17,
+        "name": "Rahman Hanafi",
+        "nim": "2023050051",
+        "year": 2023,
+        "phone": "6282114692838"
+      },
+      {
+        "id": 18,
+        "name": "Laila Litanatul Amala",
+        "nim": "2023050054",
+        "year": 2023,
+        "phone": "6285801212707"
+      },
+      {
+        "id": 19,
+        "name": "Najih Ulya Hammi",
+        "nim": "2023050055",
+        "year": 2023,
+        "phone": "6281392430868"
+      },
+      {
+        "id": 20,
+        "name": "Nala Rohmata Salisah",
+        "nim": "2023050056",
+        "year": 2023,
+        "phone": "6285700731325"
+      },
+      {
+        "id": 21,
+        "name": "Salma Umul Khoir",
+        "nim": "2023050058",
+        "year": 2023,
+        "phone": "6285600485648"
+      },
+      {
+        "id": 22,
+        "name": "Lulu Tiara",
+        "nim": "2023050059",
+        "year": 2023,
+        "phone": "6285647456741"
+      },
+      {
+        "id": 23,
+        "name": "Sholahuddin",
+        "nim": "2023050061",
+        "year": 2023,
+        "phone": "6287750356326"
+      },
+      {
+        "id": 24,
+        "name": "Bayu Rifqi Efendy",
+        "nim": "2023050062",
+        "year": 2023,
+        "phone": "6285643534801"
+      },
+      {
+        "id": 25,
+        "name": "Ismail Marzuki",
+        "nim": "2023050065",
+        "year": 2023,
+        "phone": "6287830072684"
+      },
+      {
+        "id": 26,
+        "name": "Ikhfa Syafani",
+        "nim": "2023050066",
+        "year": 2023,
+        "phone": "6281287811076"
+      },
+      {
+        "id": 27,
+        "name": "Andriyan Maulana",
+        "nim": "2024050046",
+        "year": 2024,
+        "phone": "6288802631990"
+      },
+      {
+        "id": 28,
+        "name": "Muhamad Jembar Tahta Aenulloh",
+        "nim": "2022050083",
+        "year": 2022,
+        "phone": "-"
+      }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "commandsExecuted": 2998,
+  "commandsExecuted": 2997,
   "command_menu": 303,
   "command_energi": 19,
   "command_carifitur": 7,
@@ -561,6 +561,5 @@
   "command_mkgroup": 1,
   "command_autoadzan": 1,
   "command_ai4chat": 1,
-  "command_addpremium": 1,
-  "command_updatescript": 1
+  "command_addpremium": 1
 }

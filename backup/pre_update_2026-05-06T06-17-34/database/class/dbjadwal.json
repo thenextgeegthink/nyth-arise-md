@@ -1,0 +1,53 @@
+{
+    "courses": [
+        {
+            "courseId": "040",
+            "courseName": "Teknik Editing",
+            "day": "Rabu",
+            "startTime": "07:50",
+            "endTime": "09:30",
+            "teacher": "Ahmad Taqwin, S.Sos., M.I.Sos."
+        },
+        {
+            "courseId": "029",
+            "courseName": "Event Organizer",
+            "day": "Rabu",
+            "startTime": "09:30",
+            "endTime": "12:00",
+            "teacher": "Sri Rahayu, S.Sos.,M.I.Kom"
+        },
+        {
+            "courseId": "041",
+            "courseName": "News Casting & Announcing",
+            "day": "Rabu",
+            "startTime": "13:00",
+            "endTime": "15:30",
+            "teacher": "Reny Atika Asya'roni, S.Sos.,M.Sos"
+        },
+        {
+            "courseId": "043",
+            "courseName": "Filsafat Dakwah",
+            "day": "Kamis",
+            "startTime": "07:00",
+            "endTime": "09:30",
+            "teacher": "Zaenal Sukawi, M.A"
+        },
+        {
+            "courseId": "042",
+            "courseName": "Sinematografi",
+            "day": "Kamis",
+            "startTime": "09:30",
+            "endTime": "12:00",
+            "teacher": "Reny Atika Asya'roni, S.Sos.,M.Sos"
+        },
+        {
+            "courseId": "030",
+            "courseName": "Fotografi",
+            "day": "Kamis",
+            "startTime": "13:00",
+            "endTime": "15:30",
+            "teacher": "Ahmad Taqwin, S.Sos., M.I.Sos."
+        }
+
+    ]
+}

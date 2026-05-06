@@ -8,8 +8,11 @@ storage/baileys_store.json
 storage/.auto_action_done
 .auto_action_done
 
-# Data base backups / large auto-replies maybe? (optional to keep commented out if needed)
-# database/
+# Database
+database/main/
+database/class/dbkelompok.json
+!database/class/dbmhs.json
+!database/class/dbjadwal.json
 
 # Environment Variables
 .env

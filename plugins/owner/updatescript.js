@@ -19,7 +19,7 @@ const pluginConfig = {
 }
 
 const REPO_URL = 'https://github.com/thenextgeegthink/nyth-arise-md.git'
-const BRANCH = 'main'
+const BRANCH = 'master'
 
 const PRESERVE_ITEMS = [
     'config.js',

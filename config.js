@@ -29,7 +29,7 @@ const config = {
         prefix: '.'
     },
 
-    
+
     vercel: {
         // ambil token vercel: https://vercel.com/account/tokens
         token: ''                        // Vercel Token untuk fitur deploy ( Kalau .deploy mau work, ini wajib di isi )
@@ -79,7 +79,7 @@ const config = {
     saluran: {
         id: '120363427172686797@newsletter', // ID saluran (contoh: 120363xxx@newsletter)                          // ID saluran (contoh: 120363xxx@newsletter)
         name: 'Nyth Arise',       // Nama saluran
-        link: 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t'                          // Link saluran
+        link: 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB'                          // Link saluran
     },
 
     groupProtection: {
@@ -148,7 +148,7 @@ const config = {
 
         adminOnly: '�️ *Admin Only!* Kamu harus jadi Admin grup untuk pakai fitur ini.',
         botAdminOnly: '🤖 *Bot Bukan Admin!* Jadikan bot sebagai Admin grup dulu biar bisa kerja.',
-        
+
         cooldown: '🕕 *Tunggu Dulu!* Kamu masih dalam cooldown. Tunggu %time% detik lagi ya.',
         energiExceeded: '⚡ *Energi Habis!* Energi kamu sudah habis. Tunggu reset besok atau beli Premium.',
 
@@ -230,7 +230,7 @@ const config = {
         sandbox: false,
         pollingInterval: 5000
     },
-    
+
     // NOTE: ini di versi free gak ada yak, adanya cuma di sc pt doang
     // Ambil apikey di: https://ditznesia.id -> Daftar -> Masuk ke Profile -> AMbile Apikey
     jasaotp: {
@@ -290,38 +290,38 @@ function isOwner(number) {
 function isPremium(number) {
     if (!number) return false
     if (isOwner(number)) return true
-    
+
     const cleanNumber = number.replace(/[^0-9]/g, '')
     const premiumList = config.premiumUsers || []
-    
+
     const inConfig = premiumList.some(premium => {
         if (!premium) return false
         const cleanPremium = premium.replace(/[^0-9]/g, '')
         return cleanNumber === cleanPremium || cleanNumber.endsWith(cleanPremium) || cleanPremium.endsWith(cleanNumber)
     })
-    
+
     if (inConfig) return true
-    
+
     try {
         const ownerPremiumDb = require('./src/lib/ourin-premium-db')
         if (ownerPremiumDb.isPremium(cleanNumber)) return true
-    } catch {}
-    
+    } catch { }
+
     try {
         const { getDatabase } = require('./src/lib/ourin-database')
         const db = getDatabase()
         if (db && db.data && Array.isArray(db.data.premium)) {
-             const now = Date.now()
-             const foundIndex = db.data.premium.findIndex(p => {
+            const now = Date.now()
+            const foundIndex = db.data.premium.findIndex(p => {
                 if (typeof p === 'string') return p === cleanNumber
                 if (p.id) return p.id === cleanNumber
                 return false
             })
-            
+
             if (foundIndex !== -1) {
                 const found = db.data.premium[foundIndex]
                 if (typeof found === 'string') return true
-                
+
                 const expireTime = found.expired || (found.expiredAt ? new Date(found.expiredAt).getTime() : 0)
                 if (expireTime && expireTime < now) {
                     db.data.premium.splice(foundIndex, 1)
@@ -343,8 +343,8 @@ function isPremium(number) {
             })
             if (inDb) return true
         }
-    } catch {}
-    
+    } catch { }
+
     return false
 }
 
@@ -366,7 +366,7 @@ function isPartner(number) {
     try {
         const ownerPremiumDb = require('./src/lib/ourin-premium-db')
         if (ownerPremiumDb.isPartner(cleanNumber)) return true
-    } catch {}
+    } catch { }
 
     return false
 }
@@ -374,7 +374,7 @@ function isPartner(number) {
 function isBanned(number) {
     if (!number) return false
     if (isOwner(number)) return false
-    
+
     const cleanNumber = number.replace(/[^0-9]/g, '')
     const bannedList = config.bannedUsers || []
     return bannedList.some(banned => {

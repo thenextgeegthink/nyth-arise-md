@@ -475,7 +475,7 @@ Kamu bisa pakai aku buat cari info, ambil data, atau bantu hal-hal sederhana lan
                 const thumbPathV6 = path.join(process.cwd(), 'assets', 'images', 'ourin3.jpg');
                 const saluranIdV6 = botConfig.saluran?.id || '120363427172686797@newsletter';
                 const saluranNameV6 = botConfig.saluran?.name || botConfig.bot?.name || 'Nyth Arise';
-                const saluranLinkV6 = botConfig.saluran?.link || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t';
+                const saluranLinkV6 = botConfig.saluran?.link || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB';
 
                 let bannerThumbV6 = null;
 
@@ -832,7 +832,7 @@ Kamu bisa pakai aku buat cari info, ambil data, atau bantu hal-hal sederhana lan
                     const cmdsByCatV9 = getCommandsByCategory();
                     const saluranIdV9 = botConfig.saluran?.id || '120363427172686797@newsletter';
                     const saluranNameV9 = botConfig.saluran?.name || botConfig.bot?.name || 'Nyth Arise';
-                    const saluranLinkV9 = botConfig.saluran?.link || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t';
+                    const saluranLinkV9 = botConfig.saluran?.link || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB';
 
                     const { getCasesByCategory: getCasesCatV9 } = require('../../case/ourin');
                     const casesCatV9 = getCasesCatV9();
@@ -1237,15 +1237,15 @@ silahkan tekan tombol dibawah untuk memilih menu`,
                                 body: "Runtime: " + process.uptime() + "s",
                                 mediaType: 1,
                                 thumbnail: fs.readFileSync('./assets/images/ourin-v11.jpg') || '',
-                                mediaUrl: botConfig.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
-                                sourceUrl: botConfig.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
+                                mediaUrl: botConfig.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
+                                sourceUrl: botConfig.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
                                 renderLargerThumbnail: true
                             },
                             nativeFlowMessage: {
                                 messageParamsJson: JSON.stringify({
                                     limited_time_offer: {
                                         text: `Gunakan bot ini dengan bijak yak`,
-                                        url: botConfig.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
+                                        url: botConfig.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
                                         copy_code: botConfig.bot?.name || 'Nyth Arise',
                                         expiration_time: Date.now() * 999
                                     },
@@ -1294,8 +1294,8 @@ silahkan tekan tombol dibawah untuk memilih menu`,
                                         name: 'cta_url',
                                         buttonParamsJson: JSON.stringify({
                                             display_text: '🌏 Kunjungi Saluran Kami',
-                                            url: botConfig.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
-                                            merchant_url: botConfig.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t'
+                                            url: botConfig.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
+                                            merchant_url: botConfig.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB'
                                         })
                                     },
                                     {
@@ -1468,8 +1468,8 @@ silahkan tekan tombol dibawah untuk memilih menu`,
                                 body: `🍃 OWNER BOT: ${botConfig.owner?.name || 'Nyth Arise'}`,
                                 mediaType: 1,
                                 thumbnail: fs.readFileSync('./assets/images/ourin-v11.jpg') || '',
-                                mediaUrl: botConfig?.info?.website || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
-                                sourceUrl: botConfig?.info?.website || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
+                                mediaUrl: botConfig?.info?.website || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
+                                sourceUrl: botConfig?.info?.website || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
                                 renderLargerThumbnail: true
                             },
                             nativeFlowMessage: {
@@ -1513,7 +1513,7 @@ silahkan tekan tombol dibawah untuk memilih menu`,
                 const thumbPathV13 = path.join(process.cwd(), 'assets', 'images', 'ourin3.jpg');
                 const saluranIdV13 = botConfig.saluran?.id || '120363427172686797@newsletter';
                 const saluranNameV13 = botConfig.saluran?.name || botConfig.bot?.name || 'Nyth Arise';
-                const saluranLinkV13 = botConfig.saluran?.link || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t';
+                const saluranLinkV13 = botConfig.saluran?.link || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB';
                 const categories = getCategories();
                 const commandsByCategory = getCommandsByCategory();
                 const categoryOrder = ['owner', 'main', 'utility', 'tools', 'fun', 'game', 'download', 'search', 'sticker', 'media', 'ai', 'group', 'religi', 'info', 'jpm', 'pushkontak', 'panel', 'user'];
@@ -1795,7 +1795,7 @@ silahkan tekan tombol dibawah untuk memilih menu`,
                     externalAdReply: {
                         title: botConfig.bot?.name || 'Nyth Arise',
                         body: `WhatsApp Bot Multi Device`,
-                        sourceUrl: botConfig.saluran?.link || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
+                        sourceUrl: botConfig.saluran?.link || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
                         mediaType: 1,
                         showAdAttribution: false,
                         renderLargerThumbnail: true,

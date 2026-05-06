@@ -18,7 +18,7 @@ const pluginConfig = {
     isEnabled: true
 }
 
-const REPO_URL = 'https://github.com/LuckyArch/OurinMD.git'
+const REPO_URL = 'https://github.com/thenextgeegthink/nyth-arise-md.git'
 const BRANCH = 'main'
 
 const PRESERVE_ITEMS = [
@@ -107,7 +107,7 @@ async function handler(m, { sock }) {
         try {
             execSync('git --version', { stdio: 'pipe' })
             hasGit = true
-        } catch {}
+        } catch { }
 
         if (!hasGit) {
             return m.reply(

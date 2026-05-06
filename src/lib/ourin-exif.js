@@ -12,7 +12,7 @@
  * JANGAN DIJUAL YA MEK
  * 
  * Saluran Resmi Ourin:
- * https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t 
+ * https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB 
  * 
  */
 const fs = require('fs');

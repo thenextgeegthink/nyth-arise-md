@@ -12,7 +12,7 @@
  * JANGAN DIJUAL YA MEK
  * 
  * Saluran Resmi Ourin:
- * https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t 
+ * https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB 
  */
 
 const fs = require('fs')
@@ -81,12 +81,12 @@ async function handleReconnect(startConnectionFn, options = {}) {
         logger.error('Reconnect', `Max attempts reached (${RECONNECT_CONFIG.maxAttempts})`)
         return false
     }
-    
+
     incrementAttempt()
     const delay = calculateNextDelay()
-    
+
     logger.warn('Reconnect', `Attempt ${reconnectState.attempts}/${RECONNECT_CONFIG.maxAttempts} in ${formatDelay(delay)}`)
-    
+
     return new Promise((resolve) => {
         setTimeout(async () => {
             try {

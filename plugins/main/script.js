@@ -24,8 +24,8 @@ async function handler(m, { sock }) {
         const footer = config.settings?.footer || `© ${botName} 2026`
         const saluranId = config.saluran?.id || '120363427172686797@newsletter'
         const saluranName = config.saluran?.name || botName
-        const saluranUrl = config.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t'
-        const scriptUrl = "https://github.com/LuckyArch/OurinMD"
+        const saluranUrl = config.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB'
+        const scriptUrl = "https://github.com/thenextgeegthink/nyth-arise-md"
         const scriptPrice = 0
 
         const thumbPath = path.join(process.cwd(), 'assets', 'images', 'ourin.jpg')
@@ -67,17 +67,16 @@ async function handler(m, { sock }) {
         console.error('[Script] Error:', error.message)
 
         const botName = config.bot?.name || 'Nyth Arise'
-        const scriptUrl = config.script?.url || 'https://github.com/ourin-team/ourin-md'
-        const saluranUrl = config.saluran?.url || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t'
+        const scriptUrl = config.script?.url || 'https://github.com/thenextgeegthink/nyth-arise-md'
+        const saluranUrl = config.saluran?.url || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB'
 
         await m.reply(
-            `📦 *${botName} sᴄʀɪᴘᴛ*\n\n` +
-            `╭┈┈⬡「 📋 *ɪɴꜰᴏ* 」\n` +
-            `┃ 📝 ɴᴀᴍᴀ: ${botName}\n` +
-            `┃ 💰 ʜᴀʀɢᴀ: ${config.script?.price ? `Rp ${config.script.price.toLocaleString('id-ID')}` : 'FREE'}\n` +
-            `┃ 🔗 ɢɪᴛʜᴜʙ: ${scriptUrl}\n` +
-            `┃ 📢 sᴀʟᴜʀᴀɴ: ${saluranUrl}\n` +
-            `╰┈┈⬡\n\n` +
+            `📦 *${botName} Source Code*\n\n` +
+            `Nama : ${botName}\n` +
+            `Harga : ${config.script?.price ? `Rp ${config.script.price.toLocaleString('id-ID')}` : 'FREE'}\n` +
+            `GitHub : ${scriptUrl}\n` +
+            `Saluran : ${saluranUrl}\n` +
+            `\n` +
             `> Hubungi owner untuk info lebih lanjut`
         )
     }

@@ -174,7 +174,7 @@ Selamat Datang! di grup *${groupName}*`,
                         title: `Welcome ${userName}`,
                         body: `Member ke-${memberCount}`,
                         thumbnailUrl: ppUrl,
-                        sourceUrl: config.saluran?.link || 'https://whatsapp.com/channel/0029VbB37bgBfxoAmAlsgE0t',
+                        sourceUrl: config.saluran?.link || 'https://chat.whatsapp.com/IHMJBi1NRdbL2myhIv7fxB',
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }

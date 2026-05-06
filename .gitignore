@@ -1,0 +1,27 @@
+# Dependency directory
+node_modules/
+
+# WhatsApp Bot specific files
+session/
+storage/session/
+storage/baileys_store.json
+storage/.auto_action_done
+.auto_action_done
+
+# Data base backups / large auto-replies maybe? (optional to keep commented out if needed)
+# database/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db

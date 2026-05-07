@@ -870,6 +870,13 @@ async function messageHandler(msg, sock, options = {}) {
       }
     }
 
+    if (m.command === 's') {
+      const firstArg = m.args && m.args[0] ? m.args[0].toLowerCase() : '';
+      if (firstArg === 'jdw' || firstArg === 'jadwal' || (!isNaN(firstArg) && firstArg.trim().length > 0)) {
+        m.command = 'showjadwal';
+      }
+    }
+
     let plugin = getPlugin(m.command);
 
     if (!plugin) {
